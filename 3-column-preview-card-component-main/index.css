@@ -1,0 +1,36 @@
+* {
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    width: 100vw;
+    height: 100vw;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+main {
+    width: fit-content;
+    height: fit-content;
+    padding: 1rem;
+}
+
+.grid {
+    width: 100vmin;
+    max-width: 600px;
+    height: 100vmin;
+    max-height: 300px;
+    display: grid;
+    grid-template-columns: repeat(3);
+}
+
+.grid-items {
+    position: relative;
+    
+}
